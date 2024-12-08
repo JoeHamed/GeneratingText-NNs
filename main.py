@@ -193,6 +193,13 @@ for _ in range(next_words):
     probabilities = model.predict(sequence)
     # Get the index with the highest probability
     predicted = np.argmax(probabilities, axis=-1)[0]
+    # OR
+    # # Pick a random number from [1,2,3]
+    # choice = np.random.choice([1, 2, 3])
+    # # Sort the probabilities in ascending order
+    # # and get the random choice from the end of the array
+    # predicted = np.argsort(probabilities)[0][-choice]
+    
     # Ignore if index is 0 because that's the padding
     if predicted != 0:
         # Look up the word associated with the index
