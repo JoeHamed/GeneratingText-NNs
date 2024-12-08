@@ -86,7 +86,7 @@ def plot_graphs(history, string):
 
 plot_graphs(history, 'accuracy')
 ```
-- Accuracy with '600' epochs
+#### - Accuracy with `600` epochs
 
   ![AccPlot](https://github.com/user-attachments/assets/4671f8f0-a11a-48d8-a193-99afebe12479)
 
