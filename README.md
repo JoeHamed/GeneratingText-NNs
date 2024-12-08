@@ -16,7 +16,7 @@ You can install the required dependencies by running the following:
 ```bash
 pip install tensorflow numpy matplotlib
 ```
-or use the req.txt file
+or use the `req.txt` file
 
 ## Project Structure
 
